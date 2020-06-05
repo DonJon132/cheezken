@@ -206,18 +206,20 @@ p {
   margin-top: -212px;
   text-align: center;
 }
+/* TITLE IN SMALL SCREEN */
 #fh5co-home .flexslider .fh5co-text h1 {
   margin-left: -60px;
   padding: 0;
   font-family: "Playfair Display", serif;
   font-size: 250px;
-  font-weight: 700;
+  font-weight: 500;
   font-style: italic;
   color: #fff;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
 }
+/* TITLE IN SMALL SCREEN */
 @media screen and (max-width: 992px) {
   #fh5co-home .flexslider .fh5co-text h1 {
     font-size: 55px;
@@ -245,8 +247,10 @@ p {
   font-style: italic;
   text-transform: none;
 }
+/* COLOR OF CHEF SUBTITLE */
 #fh5co-home .flexslider .fh5co-text h2 a {
-  color: #fb6e14;
+  color: #dfb323;
+  /* color: #fb6e14; */
 }
 #fh5co-home .flexslider .slides li {
   background-repeat: no-repeat;
@@ -435,7 +439,8 @@ p {
 }
 #fh5co-about .fh5co-text p {
   line-height: 2;
-  color: #a99c92;
+  /* color: #a99c92; */
+  color: rgb(231, 231, 231);
 }
 #fh5co-about .fh5co-text p span.firstcharacter {
   float: left;
@@ -562,7 +567,9 @@ p {
   margin-left: -32px;
 }
 #fh5co-featured .fh5co-heading .sub-heading {
-  color: #a99c92;
+  /* color: #a99c92; */
+  color: rgb(231, 231, 231);
+
 }
 #fh5co-featured .fh5co-grid {
   display: -webkit-box;
@@ -581,7 +588,7 @@ p {
 #fh5co-featured .fh5co-grid p {
   line-height: 1.6;
   font-size: 16px;
-  color: #222;
+  color: #222; 
 }
 #fh5co-featured .fh5co-grid .pricing {
   font-size: 40px;
@@ -783,7 +790,8 @@ p {
   margin-left: -32px;
 }
 #fh5co-menus .fh5co-heading .sub-heading {
-  color: #a99c92;
+  /* color: #a99c92; */
+  color: #242424;
 }
 #fh5co-menus .fh5co-food-menu {
   float: left;
@@ -1013,7 +1021,9 @@ p {
   margin-left: -24px;
 }
 #fh5co-contact .fh5co-heading .sub-heading {
-  color: #a99c92;
+  /* color: #a99c92; */
+  color: #242424;
+
 }
 #fh5co-contact .fh5co-social {
   padding: 0;
