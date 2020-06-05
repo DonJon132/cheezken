@@ -249,8 +249,8 @@ p {
 }
 /* COLOR OF CHEF SUBTITLE */
 #fh5co-home .flexslider .fh5co-text h2 a {
-  color: #dfb323;
-  /* color: #fb6e14; */
+  /* color: #dfb323; */
+  color: #fb6e14;
 }
 #fh5co-home .flexslider .slides li {
   background-repeat: no-repeat;
