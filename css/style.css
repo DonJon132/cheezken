@@ -864,6 +864,11 @@ p {
   /* width: 80%; */
   width: 300px;
 }
+@media screen and (max-width: 768px) {
+  #fh5co-menus .fh5co-food-menu ul li .fh5co-food-desc {
+    width: 200px;
+  }
+}
 
 #fh5co-menus .fh5co-food-menu ul li .fh5co-food-desc > figure {
   width: 20%;
