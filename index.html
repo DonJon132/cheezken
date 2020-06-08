@@ -284,9 +284,9 @@
 								<li>
 									<div class="fh5co-food-desc">
 										<figure>
-											 <img onclick="myFunction()" src="images/image.jpg"  class="myImg" alt="Free HTML5 Templates by FREEHTML5.co">
+											 <img onmousedown="myFunction()" src="images/image.jpg"  class="myImg" alt="Free HTML5 Templates by FREEHTML5.co">
 											<div id="myModal" class="modal">
-												<span class="close">&times;</span>
+												<!-- <span class="close">&times;</span> -->
 												<img class="modal-content" id="img01">
 												<div id="caption"></div>
 											  </div>
@@ -306,11 +306,6 @@
 									<div class="fh5co-food-desc">
 										<figure>
 											<img onclick="myFunction()" src="images/image2.jpg" class="myImg" alt="Free HTML5 Templates by FREEHTML5.co">
-											<div id="myModal" class="modal">
-												<span class="close">&times;</span>
-												<img class="modal-content" id="img01">
-												<div id="caption"></div>
-											  </div>
 										</figure>
 										<div>
 											<h3>Blueberry</h3>
@@ -325,11 +320,6 @@
 									<div class="fh5co-food-desc">
 										<figure>
 											<img onclick="myFunction()" src="images/image3.jpg" class="myImg" alt="Free HTML5 Templates by FREEHTML5.co">
-											<div id="myModal" class="modal">
-												<span class="close">&times;</span>
-												<img class="modal-content" id="img01">
-												<div id="caption"></div>
-											  </div>
 										</figure>
 										<div>
 											<h3>Mango</h3>
@@ -1097,11 +1087,17 @@
 		var span = document.getElementsByClassName("close")[0];
 
 		// When the user clicks on <span> (x), close the modal
-		span.onclick = function() {
-		modal.style.display = "none";
-		document.getElementById("myDIV2").style.zIndex = "1";
-		document.getElementById("myDIV3").style.zIndex = "1";
-		document.getElementById("myDIV4").style.zIndex = "1";
+			window.onclick = function(event) {
+				if (event.target == modal) {
+					modal.style.display = "none";
+					document.getElementById("myDIV2").style.zIndex = "1";
+					document.getElementById("myDIV3").style.zIndex = "1";
+					document.getElementById("myDIV4").style.zIndex = "1";
+					document.getElementById("place_order").style.zIndex = "1";
+		 			document.getElementById("fh5co-footer").style.zIndex = "1";
+				  }
+
+		
 		}
 	</script>
 
