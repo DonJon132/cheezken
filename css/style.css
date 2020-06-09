@@ -948,10 +948,10 @@ p {
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 768px){
   .modal-content {
-    width: 50%;
-    max-width: 150px;
-    margin: auto;
+    width: 80%;
+    margin-top: 6000px;
     display: block;
+    z-index: 999;
   }
 }
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@2 */
