@@ -5,6 +5,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 body {
   font-family: "Merriweather", serif;
   font-size: 18px;
@@ -892,7 +893,7 @@ p {
 /* Modal Content (image) */
 .modal-content {
   margin: auto;
-  display: block;
+  display: flex;
   width: 50%;
   max-width: 300px;
 }
@@ -947,12 +948,20 @@ p {
 
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 768px){
-  .modal-content {
-    width: 80%;
-    margin-top: 6000px;
-    display: block;
-    z-index: 999;
+  .modal-content{
+    width: 90%;
+    /* margin-top: 6000px; */
+    display: flex;
+    align-items: center;
   }
+  /* .modal-content2{
+    width: 90%;
+    margin-top: 7000px;
+    display: flex;
+  } */
+  /* #fh5co-menus .col-md-6 .fh5co-food-menu ul li .fh5co-food-desc .container-modal {
+    height: 100%;
+  } */
 }
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@2 */
 
@@ -984,6 +993,7 @@ p {
 @media screen and (max-width: 768px) {
   #fh5co-menus .fh5co-food-menu ul li .fh5co-food-desc > div p {
     width: 180px;
+    /* height: 100%; */
   }
 } 
 #fh5co-menus .fh5co-food-menu ul li .fh5co-food-desc > div h3 {
